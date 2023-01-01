@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+}
+.frontPhase {
+  background-color: #dbe2ef;
+  height: 720px;
+}
+.root {
+  width: 200px;
+  height: 100px;
+  position: relative;
+}
+.root img {
+  width: 80%;
+  position: absolute;
+  margin: 50px;
+}
+.mainimg {
+  width: 650px;
+  height: 450px;
+  position: relative;
+  left: 45%;
+  bottom: 150px;
+}
+.mainimg img {
+  width: 100%;
+  margin-top: 120px;
+}
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 75px;
+}
+.raju {
+  margin-bottom: 0;
+}
+.ramu {
+  margin-top: 0;
+}
+.para {
+  position: absolute;
+  left: 120px;
+}
+.subpara {
+  position: absolute;
+  left: 120px;
+  width: 450px;
+  top: 370px;
+}
+.btn {
+  background: #ff6e31;
+  background-image: -webkit-linear-gradient(top, #ff6e31, #ff6e31);
+  background-image: -moz-linear-gradient(top, #ff6e31, #ff6e31);
+  background-image: -ms-linear-gradient(top, #ff6e31, #ff6e31);
+  background-image: -o-linear-gradient(top, #ff6e31, #ff6e31);
+  background-image: linear-gradient(to bottom, #ff6e31, #ff6e31);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.lol {
+  position: absolute;
+  left: 120px;
+  top: 480px;
+}
+
+.btn:hover {
+  background: #bf3a06;
+  text-decoration: none;
+}
+.cart {
+  width: 30px;
+  height: auto;
+  margin-right: 80px;
+}
+li {
+  list-style: none;
+  margin: 20px 0 0 0;
+  display: inline-block;
+}
+.navbar {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+.sum {
+  margin: 20px;
+  text-decoration: none;
+  color: #788aad;
+}
+.secondPhase {
+  width: 100%;
+  height: 720px;
+}
+.cateogry hr {
+  border: solid;
+  border-radius: 50px;
+  width: 150px;
+  color: #ff6e31;
+  margin-bottom: 60px;
+}
+.cateogry h2 {
+  text-align: center;
+  margin: 80px auto 0 auto;
+  font-size: 40px;
+}
+.cateogryimg {
+  width: 100%;
+  height: 350px;
+}
+.opp1 {
+    margin-right: 50px;
+}
+.opp2 {
+    margin-right: 50px ;
+}
+
+.loopimg {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.opp1:hover {
+    margin-top: 10px;
+}
+.opp2:hover {
+    margin-top: 10px;
+}.opp3:hover {
+    margin-top: 10px;
+}
