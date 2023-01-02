@@ -94,16 +94,16 @@ li {
 }
 .secondPhase {
   width: 100%;
-  height: 720px;
+  height: 500px;
 }
-.cateogry hr {
+.cateogry hr, .feat1 hr {
   border: solid;
   border-radius: 50px;
   width: 150px;
   color: #ff6e31;
   margin-bottom: 60px;
 }
-.cateogry h2 {
+.cateogry h2, .feat1 h2 {
   text-align: center;
   margin: 80px auto 0 auto;
   font-size: 40px;
@@ -119,7 +119,7 @@ li {
     margin-right: 50px ;
 }
 
-.loopimg {
+.loopimg, .feat {
   display: flex;
   justify-content: center;
   height: 100%;
@@ -131,4 +131,32 @@ li {
     margin-top: 10px;
 }.opp3:hover {
     margin-top: 10px;
+}
+.checked, .lulu {
+  color: #ff6e31;
+}
+.thirdPhase {
+  width: 100%;
+  height: 350px;
+}
+.feat1 img, .feat2 img, .feat3 img, .feat4 img {
+  width: 90%;
+  height: 300px;
+
+}
+.feat1 p, .feat1 h4, .feat2 p, .feat2 h4, .feat3 p, .feat3 h4, .feat4 p, .feat4 h4 {
+  margin: 0;
+}
+.feat1 img, .feat2 img, .feat3 img {
+  margin-right: 35px;
+}
+.feat1:focus, .feat2:focus, .feat3:focus , .feat4 :focus{
+  background-color: #dbe2ef;
+}
+.feat1:hover, .feat2:hover, .feat3:hover , .feat4 :hover{
+  margin-top: 10px;
+}
+.chor {
+  width: 100%;
+  height: 350px;
 }
